@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vysta Watches</title>
+  <!-- Font Awesome for Instagram icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #bbb;
+    }
+    section {
+      padding: 80px 40px;
+      text-align: center;
+    }
+    .hero {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.3rem;
+    }
+    .about, .products, .contact {
+      max-width: 900px;
+      margin: auto;
+    }
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .product-card {
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(255,255,255,0.05);
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .product-card h3 {
+      margin: 15px 0 10px;
+      font-size: 1.2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    .contact a {
+      color: #E1306C; /* Instagram pink */
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    .contact a:hover {
+      color: #fff;
+    }
+    .social-icon {
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vysta</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Watches</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Vysta Watches</h2>
+    <p>Precision. Elegance. Time Redefined.</p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At Vysta, we craft timepieces that merge timeless design with modern innovation. Every watch is a symbol of sophistication, engineered with precision and built to last.</p>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Our Collection</h2>
+    <div class="products-grid">
+      <div class="product-card">
+        <img src="https://www.google.com/imgres?q=arabic%20dial%20watch&imgurl=https%3A%2F%2Faodour.oss-ap-southeast-1.aliyuncs.com%2Fnullf918646f-43e8-401f-b410-69b6ace90f90&imgrefurl=https%3A%2F%2Fthepatchee.com%2Fproducts%2Fluxury-waterproof-arabic-dial-watch%3Fsrsltid%3DAfmBOoqMf2J45jcW_OnTJHASYP1uADHWBB38C32JWpaERGIQwYFGkL3L&docid=j-2QZNqZetq-yM&tbnid=C3LPQEUJVsTW_M&vet=12ahUKEwj5zsWTybqPAxUv7AIHHYg5GugQM3oECCkQAA..i&w=729&h=731&hcb=2&ved=2ahUKEwj5zsWTybqPAxUv7AIHHYg5GugQM3oECCkQAA">
+        <h3>Classic Edition</h3>
+        <p>Minimalist design with a timeless touch.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1518544889280-cf3ee3ed1d37?auto=format&fit=crop&w=800&q=80" alt="Sport Watch">
+        <h3>Sport Edition</h3>
+        <p>Engineered for endurance and performance.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://www.google.com/imgres?q=demon%20claws%20caze%20quartz&imgurl=https%3A%2F%2Fp16-oec-general-useast5.ttcdn-us.com%2Ftos-useast5-i-omjb5zjo8w-tx%2F5a8c14e3017b453ea8e0326c51489d6a~tplv-fhlh96nyum-crop-webp%3A400%3A400.webp%3Fdr%3D12190%26t%3D555f072d%26ps%3D933b5bde%26shp%3D57fff0e0%26shcp%3D0d52deaf%26idc%3Duseast8%26from%3D1476391136&imgrefurl=https%3A%2F%2Fwww.tiktok.com%2Fshop%2Fproduct%2Fwatch-claw-design&docid=fbqVLaolf0A88M&tbnid=PcC3iQ2K571hfM&vet=12ahUKEwjV_ZyIybqPAxXZRP4FHS88DF8QM3oECCMQAA..i&w=400&h=400&hcb=2&itg=1&ved=2ahUKEwjV_ZyIybqPAxXZRP4FHS88DF8QM3oECCMQAA">
+        <h3>Luxury Edition</h3>
+        <p>Elegance redefined with premium craftsmanship.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Follow us on social media for purchase details.</p>
+    <p>
+      <a href="https://www.instagram.com/vysta.official?igsh=dXo5b3FncnJ0NmZ1" target="_blank">
+        <i class="fab fa-instagram social-icon"></i>@vysta.official
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Vysta Watches. All rights reserved.
+  </footer>
+</body>
+</html>
